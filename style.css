@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+}
+h4{
+    color: #1e8000;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight:540;
+}
+
+p {
+    color: #5d5d5d;
+    margin-top: 8px;
+}
+.Project_list{
+display: flex;
+overflow-y: hidden;
+
+}
+
+.Project_list_items{
+    background-color: #00000011;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 8px;
+    border-radius: 50px;
+    font-size: small;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    }
+
+.name{
+    text-align: center;
+    font-size: xxx-large;
+    }
+.contactme{
+position: fixed;
+bottom: 0px;
+right: 0px;
+text-align: right;
+}
+.Upwork{
+    background-color: #5eeb33;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 8px;
+    border-radius: 50px;
+    font-size: small;
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
