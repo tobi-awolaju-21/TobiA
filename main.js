@@ -1,7 +1,7 @@
 var Pjson = [
   { name: 'Hackweb', description: 'A project for a hackathon', tags: ['web3', 'progressive-webapp'] },
   { name: 'Sock store', description: 'E-commerce website development', tags: ['web3', 'micro-saas'] },
-  { name: 'PocketAPI', description: 'API integration for a client', tags: ['APIs & libarie', 'integration'] },
+  { name: 'PocketAPI', description: 'API integration for a client', tags: ['APIs & libraries', 'integration'] },
   { name: 'PocketAPI', description: 'IOT web App', tags: ['UI/UX', 'IOT & automation'] },
   { name: 'QiMap', description: 'Qiskit quantum computing project', tags: ['AI & machine-learning', 'qiskit'] },
   { name: 'Bubble plugin', description: 'Bubble.io plugin development', tags: ['no-code', 'browser-extensions'] },
