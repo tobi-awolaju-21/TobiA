@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-  // ... (your existing code)
 
 
 //load in projects 
@@ -81,8 +79,3 @@ document.addEventListener('DOMContentLoaded', function() {
   
   
 
-
-   // Simulate a click on the 'All' button to show all projects initially
-   const allButton = document.querySelector('.tag-navigator .tag-filter');
-   allButton.click();
- });
