@@ -1,16 +1,17 @@
 var Pjson = [
-  { name: 'Hackweb', description: 'A project for a hackathon', tags: ['web3', 'chatgpt'] },
-  { name: 'Sock store', description: 'E-commerce website development', tags: ['ecommerce', 'web3'] },
-  { name: 'PocketAPI', description: 'API integration for a client', tags: ['api', 'integration'] },
-  { name: 'PocketAPI', description: 'Iot web App', tags: ['UI/UX','iot'] },
-  { name: 'QiMap', description: 'Qiskit quantum computing project', tags: ['quantum', 'qiskit'] },
-  { name: 'Bubble plugin', description: 'Bubble.io plugin development', tags: ['bubble.io', 'plugin'] },
+  { name: 'Hackweb', description: 'A project for a hackathon', tags: ['web3', 'progressive-webapp'] },
+  { name: 'Sock store', description: 'E-commerce website development', tags: ['web3', 'ecommerce'] },
+  { name: 'PocketAPI', description: 'API integration for a client', tags: ['APIs & libarie', 'integration'] },
+  { name: 'PocketAPI', description: 'IOT web App', tags: ['UI/UX', 'IOT & automation'] },
+  { name: 'QiMap', description: 'Qiskit quantum computing project', tags: ['AI & machine-learning', 'qiskit'] },
+  { name: 'Bubble plugin', description: 'Bubble.io plugin development', tags: ['no-code', 'plugin'] },
   { name: 'DormChat', description: 'No-code platform customization', tags: ['no-code', 'customization'] },
   { name: 'Acustic eye', description: 'IoT device implementation', tags: ['iot', 'embedded'] },
   { name: 'Powertile', description: 'Embedded systems development', tags: ['embedded', 'hardware'] },
   { name: 'Unibot', description: 'Robotics project for automation', tags: ['robotics', 'automation'] },
   // Add more project objects as needed
 ];
+
 
 //load in projects 
 document.addEventListener('DOMContentLoaded', function() {
