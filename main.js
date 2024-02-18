@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function filterProjects(tag) {
-    const allProjects = projects;
+    const allProjects = Pjson;
   
     const filteredProjects = tag === 'All'
       ? allProjects
