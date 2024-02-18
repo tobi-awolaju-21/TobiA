@@ -1,21 +1,21 @@
-
+var Pjson = [
+  { name: 'Hackweb', description: 'A project for a hackathon', tags: ['web3', 'chatgpt'] },
+  { name: 'Sock store', description: 'E-commerce website development', tags: ['ecommerce', 'web3'] },
+  { name: 'Epornet', description: 'API integration for a client', tags: ['api', 'integration'] },
+  { name: 'QiMap', description: 'Qiskit quantum computing project', tags: ['quantum', 'qiskit'] },
+  { name: 'Bubble plugin', description: 'Bubble.io plugin development', tags: ['bubble.io', 'plugin'] },
+  { name: 'DormChat', description: 'No-code platform customization', tags: ['no-code', 'customization'] },
+  { name: 'Acustic eye', description: 'IoT device implementation', tags: ['iot', 'embedded'] },
+  { name: 'Powertile', description: 'Embedded systems development', tags: ['embedded', 'hardware'] },
+  { name: 'Unibot', description: 'Robotics project for automation', tags: ['robotics', 'automation'] },
+  // Add more project objects as needed
+];
 
 //load in projects 
 document.addEventListener('DOMContentLoaded', function() {
     // Your projects data in JSON format
-    const projects = [
-        { name: 'Project 1', description: 'A project for a hackathon', tags: ['web3', 'chatgpt'] },
-        { name: 'Project 2', description: 'E-commerce website development', tags: ['ecommerce', 'web3'] },
-        { name: 'Project 3', description: 'API integration for a client', tags: ['api', 'integration'] },
-        { name: 'Project 4', description: 'Qiskit quantum computing project', tags: ['quantum', 'qiskit'] },
-        { name: 'Project 5', description: 'Bubble.io plugin development', tags: ['bubble.io', 'plugin'] },
-        { name: 'Project 6', description: 'No-code platform customization', tags: ['no-code', 'customization'] },
-        { name: 'Project 7', description: 'IoT device implementation', tags: ['iot', 'embedded'] },
-        { name: 'Project 8', description: 'Embedded systems development', tags: ['embedded', 'hardware'] },
-        { name: 'Project 9', description: 'Robotics project for automation', tags: ['robotics', 'automation'] },
-        // Add more project objects as needed
-      ];
-      
+ 
+     const projects = Pjson
       // The rest of the JavaScript code remains the same
       
   
@@ -42,18 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function filterProjects(tag) {
-    const allProjects = [
-      { name: 'Project 1', description: 'A project for a hackathon', tags: ['web3', 'chatgpt'] },
-      { name: 'Project 2', description: 'E-commerce website development', tags: ['ecommerce', 'web3'] },
-      { name: 'Project 3', description: 'API integration for a client', tags: ['api', 'integration'] },
-      { name: 'Project 4', description: 'Qiskit quantum computing project', tags: ['quantum', 'qiskit'] },
-      { name: 'Project 5', description: 'Bubble.io plugin development', tags: ['bubble.io', 'plugin'] },
-      { name: 'Project 6', description: 'No-code platform customization', tags: ['no-code', 'customization'] },
-      { name: 'Project 7', description: 'IoT device implementation', tags: ['iot', 'embedded'] },
-      { name: 'Project 8', description: 'Embedded systems development', tags: ['embedded', 'hardware'] },
-      { name: 'Project 9', description: 'Robotics project for automation', tags: ['robotics', 'automation'] },
-      // Add more project objects as needed
-    ];
+    const allProjects = projects;
   
     const filteredProjects = tag === 'All'
       ? allProjects

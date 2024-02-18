@@ -36,8 +36,8 @@ p {
     }
 
 .name{
-    text-align: center;
-    font-size: xxx-large;
+    font-size: medium;
+    margin-bottom: 6px;
     }
 
 
@@ -81,13 +81,22 @@ body {
   }
   
   .tag-filter {
-    margin: 4px;
+    margin: 6px;
     padding: 5px 10px;
     cursor: pointer;
     background-color: #e7e7e76f;
     color: #000000;
     border: none;
     border-radius: 50px;
+  }
+.description{
+  font-size: small;
+}
+
+  .tag{
+    margin-top: 4px;
+    font-size: small;
+    color:#929292;
   }
   
   .Project_list {
@@ -97,7 +106,7 @@ body {
   
   .project {
     border: 1px solid #ccc;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
     width: auto;
