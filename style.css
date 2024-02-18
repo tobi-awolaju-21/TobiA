@@ -10,7 +10,7 @@ h1 {
     color: #333;
 }
 h4{
-    color: #00000083;
+    color: #7a7a7a;
     padding: 0px;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -57,7 +57,7 @@ text-align: right;
     padding-right: 10px;
     padding-top: 10px;
     margin:20px;
-    border-radius: 50px;
+    border-radius: 25px;
     font-size: small;
     height: 25px;
     width: auto;
