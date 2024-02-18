@@ -1,9 +1,5 @@
-// Your JavaScript code goes here
-document.addEventListener('DOMContentLoaded', function() {
-    // Code to run after the DOM is ready
-    console.log('DOM is ready!');
-});
-
+document.addEventListener('DOMContentLoaded', function () {
+  // ... (your existing code)
 
 
 //load in projects 
@@ -46,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
       projectList.appendChild(projectItem);
     });
   }
-  
+
   function filterProjects(tag) {
     const allProjects = [
       { name: 'Project 1', description: 'A project for a hackathon', tags: ['web3', 'chatgpt'] },
@@ -66,6 +62,27 @@ document.addEventListener('DOMContentLoaded', function() {
       : allProjects.filter(project => project.tags.includes(tag));
   
     displayProjects(filteredProjects);
+
+
+
+       // Change the color of the clicked button to red and others to blue
+  const tagButtons = document.querySelectorAll('.tag-filter');
+  tagButtons.forEach(button => {
+    if (button.textContent.toLowerCase() === tag.toLowerCase()) {
+      button.style.backgroundColor = '#2bac58'; // Change to blue
+      button.style.color = '#ffffff'; // Change to white
+    } else {
+      button.style.backgroundColor = '#dcdcdc'; // Change to grey
+      button.style.color = '#000000'; // Change to black
+    }
+  }); 
+
   }
   
   
+
+
+   // Simulate a click on the 'All' button to show all projects initially
+   const allButton = document.querySelector('.tag-navigator .tag-filter');
+   allButton.click();
+ });

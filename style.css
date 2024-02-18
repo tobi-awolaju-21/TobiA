@@ -21,11 +21,6 @@ p {
     color: #5d5d5d;
     margin-top: 8px;
 }
-.Project_list{
-display: flex;
-overflow-y: hidden;
-
-}
 
 .Project_list_items{
     background-color: #00000011;
@@ -55,7 +50,7 @@ text-align: right;
 
 
 .Upwork{
-    background-color: #008cff;
+    background-color: #2bac58;
     color: #ffffff;
     padding-left: 10px;
     padding-right: 10px;
@@ -89,10 +84,10 @@ body {
     margin: 4px;
     padding: 5px 10px;
     cursor: pointer;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #dcdcdc;
+    color: #000000;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
   }
   
   .Project_list {
