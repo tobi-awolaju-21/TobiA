@@ -86,7 +86,7 @@ body {
   }
   
   .tag-filter {
-    margin-right: 10px;
+    margin: 4px;
     padding: 5px 10px;
     cursor: pointer;
     background-color: #3498db;
