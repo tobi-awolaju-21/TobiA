@@ -72,6 +72,10 @@ text-align: right;
 
 
 
+.contactme a {
+  text-decoration: none;
+}
+
 
 
 body {
