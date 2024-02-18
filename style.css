@@ -44,12 +44,16 @@ overflow-y: hidden;
     text-align: center;
     font-size: xxx-large;
     }
+
+
 .contactme{
 position: fixed;
 bottom: 0px;
 right: 0px;
 text-align: right;
 }
+
+
 .Upwork{
     background-color: #008cff;
     color: #ffffff;
@@ -63,3 +67,43 @@ text-align: right;
     width: auto;
     text-align: center;
 }
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  .tag-navigator {
+    margin-bottom: 20px;
+  }
+  
+  .tag-filter {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .Project_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  

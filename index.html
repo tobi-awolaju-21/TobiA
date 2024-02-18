@@ -27,54 +27,16 @@
 
             
     <h4>Projects 🍪</h4>
-    <div class="Project_list">
-        <div class="Project_list_items">
-            Documentation
-         </div>
-
-
-        <div class="Project_list_items">
-         Ecommerce
-        </div>
-
-        <div class="Project_list_items">
-        Web3
-        </div>
-
-        <div class="Project_list_items">
-          ChatGPT  
-        </div>
-
-        <div class="Project_list_items">
-           API 
-        </div>
-
-        <div class="Project_list_items">
-            Qiskit
-        </div>
-
-        <div class="Project_list_items">
-            BubbleIo_Plugin
-        </div>
-
-        <div class="Project_list_items">
-            No_Code
-        </div>
-
-        <div class="Project_list_items">
-           IOT
-        </div>
-
-        <div class="Project_list_items">
-            Emmbedded
-         </div>
-
-         <div class="Project_list_items">
-            Robotics
-         </div>
-
-        
-         </div>
+    <div class="tag-navigator">
+      <button class="tag-filter" onclick="filterProjects('All')">All</button>
+      <button class="tag-filter" onclick="filterProjects('web3')">Web3</button>
+      <button class="tag-filter" onclick="filterProjects('chatgpt')">ChatGPT</button>
+      <!-- Add more buttons for other tags as needed -->
+    </div>
+  
+    <div class="Project_list" id="projectList">
+      <!-- Your project items will be dynamically added here -->
+    </div>
     
 
 <div class="contactme">
