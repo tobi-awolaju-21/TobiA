@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
       button.style.backgroundColor = '#2bac58'; // Change to blue
       button.style.color = '#ffffff'; // Change to white
     } else {
-      button.style.backgroundColor = '#dcdcdc'; // Change to grey
+      button.style.backgroundColor = '#e7e7e76f'; // Change to grey
       button.style.color = '#000000'; // Change to black
     }
   }); 
