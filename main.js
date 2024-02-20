@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const tagButtons = document.querySelectorAll('.tag-filter');
   tagButtons.forEach(button => {
     if (button.textContent.toLowerCase() === tag.toLowerCase()) {
-      button.style.backgroundColor = '#2bac58'; // Change to blue
+      button.style.backgroundColor = '#000000'; // Change to blue
       button.style.color = '#ffffff'; // Change to white
     } else {
       button.style.backgroundColor = '#e7e7e76f'; // Change to grey
