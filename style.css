@@ -117,12 +117,17 @@ body {
     flex-wrap: wrap;
   }
   
+
   .project {
-    background-color: #cbc8ff;
+    background-color: #ecebff;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    width: 180px;
-  }
-  
+    width: 100%; /* Default width for all screen sizes */
+
+    /* Media query for screens with a width of 768 pixels or more (typical desktop size) */
+    @media (min-width: 768px) {
+        width: 30%; /* Set width to 30% for desktop screens */
+    }
+}
