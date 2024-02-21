@@ -1,15 +1,15 @@
 var Pjson = [
-  { name: 'AI&GPTs Project', description: 'A project exploring AI and GPT technologies', tags: ['AI&GPTs'] },
-  { name: 'Backend Development', description: 'Building robust backend infrastructure', tags: ['Backend'] },
-  { name: 'Blockchain Project', description: 'Exploring blockchain technology', tags: ['Blockchain'] },
-  { name: 'Bubble.io Plugin', description: 'Developing a plugin for Bubble.io', tags: ['Bubble.io'] },
-  { name: 'Frontend Project', description: 'Creating engaging frontend experiences', tags: ['Frontend'] },
-  { name: 'Fullstack Development', description: 'Comprehensive fullstack application development', tags: ['Fullstack'] },
-  { name: 'IoT Device Implementation', description: 'Implementing IoT devices for automation', tags: ['IOT'] },
-  { name: 'Integrations Project', description: 'Integrating various APIs for enhanced functionality', tags: ['Integrations'] },
-  { name: 'Robotics Automation', description: 'Developing a robotics project for automation', tags: ['robotics'] },
-  { name: 'UI/UX Hackathon', description: 'A UI/UX project created for a hackathon', tags: ['UI/UX'] },
-  { name: 'WebApp Development', description: 'Creating feature-rich web applications', tags: ['WebApp'] },
+  { name: 'AI&GPTs Project', description: 'A project exploring AI and GPT technologies', tags: ['AI&GPTs'], img: './imgv.png' },
+  { name: 'Backend Development', description: 'Building robust backend infrastructure', tags: ['Backend'], img: './imgv.png' },
+  { name: 'Blockchain Project', description: 'Exploring blockchain technology', tags: ['Blockchain'], img: './imgv.png' },
+  { name: 'Bubble.io Plugin', description: 'Developing a plugin for Bubble.io', tags: ['Bubble.io'], img: './imgv.png' },
+  { name: 'Frontend Project', description: 'Creating engaging frontend experiences', tags: ['Frontend'], img: './imgv.png' },
+  { name: 'Fullstack Development', description: 'Comprehensive fullstack application development', tags: ['Fullstack'], img: './imgv.png' },
+  { name: 'IoT Device Implementation', description: 'Implementing IoT devices for automation', tags: ['IOT'], img: './imgv.png' },
+  { name: 'Integrations Project', description: 'Integrating various APIs for enhanced functionality', tags: ['Integrations'], img: './imgv.png' },
+  { name: 'Robotics Automation', description: 'Developing a robotics project for automation', tags: ['robotics'], img: './imgv.png' },
+  { name: 'UI/UX Hackathon', description: 'A UI/UX project created for a hackathon', tags: ['UI/UX'], img: './imgv.png' },
+  { name: 'WebApp Development', description: 'Creating feature-rich web applications', tags: ['WebApp'], img: './imgv.png' },
   // Add more project objects as needed
 ];
 
@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
       projectItem.classList.add('project');
   
       projectItem.innerHTML = `
+        <img class="imgx" src ="${project.img}">
         <div class="name">${project.name}</div>
         <div class="description">${project.description}</div>
         <div class="tag">${project.tags.join(',')}</div>
