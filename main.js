@@ -1,16 +1,18 @@
 var Pjson = [
-  { name: 'Hackweb', description: 'A project for a hackathon', tags: ['web3', 'progressive-webapp'] },
-  { name: 'Sock store', description: 'E-commerce website development', tags: ['web3', 'micro-saas'] },
-  { name: 'PocketAPI', description: 'API integration for a client', tags: ['APIs & libraries', 'integration'] },
-  { name: 'PocketAPI', description: 'IOT web App', tags: ['UI/UX', 'IOT & automation'] },
-  { name: 'QiMap', description: 'Qiskit quantum computing project', tags: ['AI & machine-learning', 'qiskit'] },
-  { name: 'Bubble plugin', description: 'Bubble.io plugin development', tags: ['no-code', 'browser-extensions'] },
-  { name: 'DormChat', description: 'No-code platform customization', tags: ['no-code', 'customization'] },
-  { name: 'Acustic eye', description: 'IoT device implementation', tags: ['IOT & automation', 'software-architecture & design'] },
-  { name: 'Powertile', description: 'Embedded systems development', tags: ['software-architecture & design', 'IOT & automation'] },
-  { name: 'Unibot', description: 'Robotics project for automation', tags: ['robotics', 'automation'] },
+  { name: 'AI&GPTs Project', description: 'A project exploring AI and GPT technologies', tags: ['AI&GPTs'] },
+  { name: 'Backend Development', description: 'Building robust backend infrastructure', tags: ['Backend'] },
+  { name: 'Blockchain Project', description: 'Exploring blockchain technology', tags: ['Blockchain'] },
+  { name: 'Bubble.io Plugin', description: 'Developing a plugin for Bubble.io', tags: ['Bubble.io'] },
+  { name: 'Frontend Project', description: 'Creating engaging frontend experiences', tags: ['Frontend'] },
+  { name: 'Fullstack Development', description: 'Comprehensive fullstack application development', tags: ['Fullstack'] },
+  { name: 'IoT Device Implementation', description: 'Implementing IoT devices for automation', tags: ['IOT'] },
+  { name: 'Integrations Project', description: 'Integrating various APIs for enhanced functionality', tags: ['Integrations'] },
+  { name: 'Robotics Automation', description: 'Developing a robotics project for automation', tags: ['robotics'] },
+  { name: 'UI/UX Hackathon', description: 'A UI/UX project created for a hackathon', tags: ['UI/UX'] },
+  { name: 'WebApp Development', description: 'Creating feature-rich web applications', tags: ['WebApp'] },
   // Add more project objects as needed
 ];
+
 
 
 
