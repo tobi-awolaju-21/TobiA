@@ -56,16 +56,15 @@ text-align: right;
 
 
 .Upwork {
-  background-color: #ffffff;
-  color: #000000;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  background-color: #0040ff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size:large;
+  padding: 10px;
   margin: 20px;
   border-radius: 50px;
-  font-size: small;
-  height: 25px;
-  width: autopx;
+  height: auto;
+  width: auto;
   text-align: center;
   text-decoration: none;
   box-shadow: 6px 6px 0px rgb(0, 0, 0); /* Adjust the values for your desired shadow effect */
